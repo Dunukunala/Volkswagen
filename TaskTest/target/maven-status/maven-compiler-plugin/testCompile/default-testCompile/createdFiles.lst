@@ -1,0 +1,5 @@
+Steps\HomePageSteps.class
+Steps\RunnerTest.class
+Pages\HomePage.class
+Steps\FindVehicleSteps.class
+Pages\FindVehiclePage.class

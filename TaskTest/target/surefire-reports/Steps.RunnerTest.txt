@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: Steps.RunnerTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 2, Skipped: 5, Time elapsed: 5.522 s <<< FAILURE! - in Steps.RunnerTest
+Given User is on the Volkswagen Financial Services Home Page on URL "https://covercheck.vwfsinsuranceportal.co.uk"(| OV12UYY |)  Time elapsed: 0.01 s  <<< ERROR!
+java.lang.NullPointerException
+
+| OV12UYY |  Time elapsed: 0.011 s  <<< ERROR!
+java.lang.NullPointerException
+

@@ -1,0 +1,3 @@
+dataProviders\ConfigFileReader.class
+base\testBase.class
+managers\FileReaderManager.class
