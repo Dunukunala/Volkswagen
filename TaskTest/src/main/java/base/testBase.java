@@ -28,14 +28,7 @@ public class testBase {
                 System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/Driver/geckodriver");
                 driver = new FirefoxDriver();
             } else if (CONFIG.getProperty("browser").equals("chrome")) {
-                //System.setProperty("webdriver.chrome.driver", "\Users\Hita\Desktop\chromedriver.exe");
-                System.setProperty("webdriver.chrome.driver", "C:\\Users\\Hita\\Desktop\\chromedriver.exe");
-
-             //   String pathToChromeDriver = "lib/chromedriver";C:\Users\Hita\Desktop
-
-               // System.setProperty("webdriver.chrome.driver", pathToChromeDriver);
-
-               // System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/Driver/chromedriver");
+               System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/Driver/chromedriver");
                 ChromeOptions options = new ChromeOptions();
                 driver = new ChromeDriver(options);
 
