@@ -4,8 +4,8 @@ import Pages.HomePage;
 import base.testBase;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
-import org.junit.After;
-import org.junit.Before;
+import cucumber.api.java.After;
+import cucumber.api.java.Before;
 import org.openqa.selenium.support.PageFactory;
 
 import java.io.IOException;
