@@ -22,8 +22,7 @@ public void setup() throws IOException {
     @Given("^User is on the Volkswagen Financial Services Home Page on URL \"([^\"]*)\"$")
     public void user_is_on_the_Volkswagen_Financial_Services_Home_Page_on_URL(String arg1)  {
      driver.get(CONFIG.getProperty("URL"));
-     //   driver.get("https://www.bbc.co.uk/");
-    }
+         }
 
     @Then("^I should see Volkswagen Financial Services displayed$")
     public void i_should_see_Volkswagen_Financial_Services_displayed()  {
